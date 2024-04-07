@@ -1,0 +1,51 @@
+.container {
+    position: relative;
+    left: 50px;
+    max-width: 800px;
+    margin: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    text-align: left;
+    color: #333;
+}
+
+.student-info {
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+.student-info:hover{
+    background-color: #E0E0E0;
+}
+
+.student-info h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button-link {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}

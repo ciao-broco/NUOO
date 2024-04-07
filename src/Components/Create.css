@@ -1,0 +1,98 @@
+/* Create.css
+
+/* Stile per il contenitore principale */
+.princdue {
+width: 80%;
+height: 80vh;
+   max-width: 400px;
+   margin: 0 auto;
+   padding: 20px 20px 20px 20px;
+   font-family: Arial, sans-serif;
+ }
+ 
+ /* Stile per il titolo */
+ .title-container {
+cursor: pointer;
+font-size: 3em; /* Dimensione del testo */
+  font-family: 'Arial Black', sans-serif; /* Tipo di carattere */
+  color: transparent; /* Colore del testo trasparente */
+  text-align: center; /* Allineamento al centro */
+  margin-bottom: 50px; /* Spazio inferiore */
+  background: linear-gradient(to top, #337CFF, #222); /* Sfondo gradient */
+  -webkit-background-clip: text; /* Applicazione del gradient al testo */
+  -webkit-text-fill-color: transparent; /* Testo trasparente per vedere il gradient */
+  animation: rainbow 5s linear infinite; /* Animazione arcobaleno */
+  animation-direction: alternate; /* Alternanza di direzione */
+  transition: transform 0.3s ease-in-out;
+ }
+ 
+ /* Animazione neon */
+ @keyframes neon {
+   0% {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00c9ff, 0 0 40px #00c9ff, 0 0 50px #00c9ff, 0 0 60px #00c9ff, 0 0 70px #00c9ff, 0 0 80px #00c9ff;
+   }
+   100% {
+     text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00c9ff, 0 0 50px #00c9ff, 0 0 60px #00c9ff, 0 0 70px #00c9ff, 0 0 80px #00c9ff, 0 0 90px #00c9ff;
+   }
+ }
+ 
+
+ 
+ /* Stile per i campi di input */
+ .addname,
+ .addemail {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box; /* Per includere il bordo e il padding nel calcolo della larghezza */
+ }
+ 
+ /* Stile per i label */
+ .label {
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+ }
+ 
+ /* Stile per il pulsante di invio */
+ .submit-button {
+   background-color: #5ae012;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+ }
+ .back-button{
+  position: relative;
+  left: 240px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+ }
+ 
+ .submit-button:hover {
+   background-color: #006c04;
+   transition: 0.5s;
+   scale: 1.1;
+ }
+.back-button:hover {
+  background-color: #800000;
+  transition: 0.5s;
+   scale: 1.1;
+}
